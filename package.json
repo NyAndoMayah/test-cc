@@ -1,0 +1,30 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha test/**/*.test.js",
+    "lint": "eslint --ext .js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.11",
+    "@types/readline-sync": "^1.4.8",
+    "@types/sinon": "^17.0.2",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "chai": "^4.3.10",
+    "eslint": "^8.55.0",
+    "eslint-plugin-import": "^2.29.0",
+    "mocha": "^10.2.0",
+    "sinon": "^17.0.1"
+  }
+}
